@@ -16,3 +16,23 @@ NoBar Frontend is a simple yet effective WordPress plugin designed to enhance th
    You can download the plugin from the WordPress plugin repository or clone this repository using:
    ```bash
    git clone https://github.com/<your-username>/nobar-frontend.git
+
+### Upload the Plugin
+Upload the plugin to your WordPress site via the Plugins section or place it in the `/wp-content/plugins/` directory.
+
+### Activate the Plugin
+Go to the Plugins menu in WordPress, find **NoBar Frontend**, and click **Activate**.
+
+## Usage
+Once activated, the admin bar will no longer appear on the frontend for logged-in users, providing a distraction-free browsing experience.
+
+## Code Snippet
+The core functionality of the plugin is implemented with the following code:
+
+```php
+// Hide admin bar from the frontend for logged-in users
+add_filter( 'show_admin_bar', '__return_false' );
+
+Author
+Olive Uzoma
+Website
