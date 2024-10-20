@@ -6,3 +6,7 @@
  * Author: Olive Uzoma
  * Author URI: https://oliveuzoma.com
  */
+
+// Hide admin bar from the frontend for logged-in users
+add_filter( 'show_admin_bar', '__return_false' );
+ 
