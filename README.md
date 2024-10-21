@@ -32,6 +32,7 @@ The core functionality of the plugin is implemented with the following code:
 ```php
 // Hide admin bar from the frontend for logged-in users
 add_filter( 'show_admin_bar', '__return_false' );
+```
 
 Author
 Olive Uzoma
