@@ -34,6 +34,6 @@ The core functionality of the plugin is implemented with the following code:
 add_filter( 'show_admin_bar', '__return_false' );
 ```
 
-Author
+## Author
 Olive Uzoma
-Website
+
